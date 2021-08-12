@@ -17,7 +17,6 @@ const Modal = {
     }
 }
 
-
 const transactions = [
     {
         id: 1,
