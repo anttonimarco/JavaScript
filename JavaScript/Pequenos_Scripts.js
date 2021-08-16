@@ -1,6 +1,7 @@
-//OBS:> Rodar NodeJS or ConsoleGoogle.
-//Pequenos Scripts de treinamento.
+//OBS:> Rodar NodeJS or GoogleBronwserConsole.
+//Scripts de Treinamento.
 
+//----------------------------------------------------------------------------------------
 // Vereficar se o número é Primo ou não.
 function Primo(dados) {
     if(dados != 1)
@@ -9,8 +10,7 @@ function Primo(dados) {
     if(dados !== 1) return "Este número é Primo!";
 }
 
-
-
+//----------------------------------------------------------------------------------------
 
 // Lista_Nomes
 var namelist = [];
@@ -22,6 +22,8 @@ function Nomes() {
     console.log("Olá " + namelist[i] + "!")
     console.log("Fim!")
 }
+
+//----------------------------------------------------------------------------------------
  
 // Semáfaro
 function Sinal(dados) {
@@ -36,3 +38,4 @@ function Sinal(dados) {
     }
 }
 
+//----------------------------------------------------------------------------------------
