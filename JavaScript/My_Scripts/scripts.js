@@ -4,31 +4,36 @@
 //==================================================================================
 console.log('\n')
 
+console.log('>>> Lista Names <<<')
 function nomes() {
     var namelist = [];
     namelist.push('Ana', 'Marco', 'Pedro', 'Nina', 'Bruna')
     for(var i = 0; i < namelist.length; i++)
     console.log("Olá " + namelist[i] + " !");
+    console.log('Dentro da Array(Lista) temos ' + (namelist.length) + ' Nomes.');  
 }
+
 nomes();
 
 //==================================================================================
 console.log('\n')
 //==================================================================================
-
+/*
 //  >>> Número primo
+console.log('>>> Número Primo <<<')
 
-function Primo(dados) {
-    if(dados != 1) {
-        for(var i = 2; i < dados; i++);
-        if(dados % i == 0) {
-            console.log('Este número é Primo!');
-        } else if (dados !== 1) 
-            console.log('Este número não é Primo!');
+function Primo() {
+    var numero = window.prompt('Digite um número: ');
+    for(var i = 2; i < numero; i++);
+    if(numero % i == 0) {
+        window.alert('Não é Primo');
+    } else if (numero !== 1) {
+        window.alert('É Primo!');
     }
-}    
-Primo(3);
+}           // Bugado!
 
+Primo();
+*/
 //==================================================================================  
 console.log('\n')
 //==================================================================================
@@ -51,15 +56,26 @@ console.log('Nome:' + name,'Idade:' +  idade);
 console.log('\n')
 //==================================================================================
 
-// Semáfaro
-function Sinal(dados) {
-    if(dados == 1) {
-        return("Sinal Vermelho, Pare!");
-    } else if(dados == 2) {
-        return("Sinal Amarelo, Atenção!");
-    } else if(dados == 3) {
-        return("Sinal Verde, Siga em frente!");
-    } else if (dados !== 1 && 2 || 3) {
-        return("Código Inválido!");
+// >>> Semáfaro
+console.log(' >>> Semáfaro <<< ')
+function Sinal(x) {
+    if (x == 1) {
+        console.log('Sinal Vermelho, Pare!');
+    } else if (x == 2) {
+        console.log('Sinal Amarelo, Atenção!');
+    } else if (x == 3) {
+        console.log('Sinal Verde, Siga em frente!');
+    } else if (x === 1 && 2 || 3) {
+        console.log('Código Inválido!')
     }
 }
+Sinal(0);
+setTimeout(99)
+Sinal(1);
+Sinal(2);
+Sinal(3);
+Sinal(4);
+
+console.log('\n')
+
+console.log('Hello World!')
