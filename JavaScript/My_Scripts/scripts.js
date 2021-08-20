@@ -78,4 +78,43 @@ Sinal(4);
 
 console.log('\n')
 
-console.log('Hello World!')
+var name = 'Marcos';
+var age = '28';
+console.log(`Meu nome é ${name} e tenho ${age} anos`)
+
+console.log('\n')
+//==================================================================================
+// Object
+
+const person = {
+    name: 'Marco',
+    age: 30,        // Criando um Objeto
+    weight: 88.6,
+    isAdming: true
+}
+
+console.log(person)
+console.log(person.name)
+console.log(person.age)
+console.log(`${person.name} tem ${person.age} anos`)
+
+console.log('\n')
+//==================================================================================
+// Array
+
+const cars = [
+    'Ferrari',
+    'Porsche',
+    'BMW',
+    'Honda',
+    {
+        tipocar: 'Mercedes',
+        power: '900cv'
+    }
+]
+// Acessar valores dentro do Array
+console.log(cars)
+console.log(cars[0])
+console.log(cars.length)
+console.log(cars[4].tipocar)
+
