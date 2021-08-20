@@ -118,3 +118,6 @@ console.log(cars[0])
 console.log(cars.length)
 console.log(cars[4].tipocar)
 
+//==================================================================================
+
+console.log(screen);
