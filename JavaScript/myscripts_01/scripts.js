@@ -41,12 +41,12 @@ console.log('\n')
 //  >>> Interagindo com o usuário
 window.alert('Hello Stranger!')
 
-name = window.prompt('Olá, Qual seu nome? ');
-window.alert('Seja Bem-Vindo ' + name + "!");
+name = window.prompt('What is your name?');
+window.alert('Welcome ' + name + "!");
 
-idade = window.prompt('Qual sua idade? ');
+idade = window.prompt('How old are you? ');
 if(idade <= 17) {
-    window.alert('Menor de Idade!');
+    window.alert('Menor de idade!');
 } else if (idade => 18) {
     window.alert('Maior de Idade!');
 }
